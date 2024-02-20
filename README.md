@@ -16,4 +16,4 @@ To get started, simply browse through the repository and click on any project th
 
 ## Contact Me
 
-I am open to collaborations, job opportunities, and discussions related to data analysis and beyond. Feel free to reach out to me via email piwan.summerlee@gmail.com, and [LinkedIn]( https://www.linkedin.com/in/piwan-samalie/). I look forward to hearing from you!
+I am open to collaborations, job opportunities, and discussions related to data analysis and beyond. Feel free to reach out to me via email at spiwan@andrew.cmu.edu, and connect with me on [LinkedIn]( https://www.linkedin.com/in/piwan-samalie/). I look forward to hearing from you!
