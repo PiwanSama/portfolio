@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html>
+	<head>
+		<title>Credit Customer Classification</title>
+		<style type="text/css">
+			@font-face {
+				font-family: 'Poppins';
+				src: url('fonts/poppins.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			body {
+				font-family: 'Poppins', sans-serif;
+				background-color: #f0f0f0;
+				color: #333;
+				margin: 0;
+			}
+	
+			h2 {
+				color: #fff;
+			}
+	
+			p {
+				color: #fff;
+			}
+	
+			.introdiv {
+				margin: auto;
+				height: 120px;
+				width: 70%;
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+				background-color: #3498db;
+				text-align: left;
+				padding: 20px;
+				color: #fff;
+			}
+	
+			.resultdiv {
+				margin: auto;
+				width: 70%;
+				background-color: #fff;
+				padding: 20px;
+				border-bottom-left-radius: 8px;
+				border-bottom-right-radius: 8px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			}
+	
+			.center {
+				margin: auto;
+				width: 60%;
+				height: 85%;
+				padding: 15px;
+				background-color: #ecf0f1;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="center">
+			<div class="introdiv">
+				<h2>Credit Customer Classification</h2>
+				<p>Find out which category a customer belongs to based on their credit card activity</p>
+
+			</div>
+	
+
+			<div class="resultdiv">
+				<h3>Predicted Customer Category:</h3>
+				<p class="results">
+					<span style="background-color: {{ color_signal }}; padding:10px; font-weight: 400; color:#333;">{{ prediction }}</span>
+				</p>
+				
+			</div>
+		</div>
+	</body>
+</html>

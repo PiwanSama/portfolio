@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html>
+	<head>
+		<title>Credit Customer Classification</title>
+		<style type="text/css">
+			@font-face {
+				font-family: 'Poppins';
+				src: url('fonts/poppins.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			body {
+				font-family: 'Poppins', sans-serif;
+				background-color: #f0f0f0;
+				color: #333;
+				margin: 0;
+			}
+	
+			h2 {
+				color: #fff;
+			}
+	
+			p {
+				color: #fff;
+			}
+
+			p.form-p{
+				color: #333;
+			}
+
+			label {
+				display: block;
+				margin-bottom: 10px;
+			}
+	
+			.introdiv {
+				margin: auto;
+				height: 120px;
+				width: 70%;
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+				background-color: #3498db;
+				text-align: left;
+				padding: 20px;
+				color: #fff;
+			}
+	
+			.formdiv {
+				margin: auto;
+				width: 70%;
+				background-color: #fff;
+				padding: 20px;
+				border-bottom-left-radius: 8px;
+				border-bottom-right-radius: 8px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			}
+	
+			.center {
+				margin: auto;
+				width: 60%;
+				height: 85%;
+				padding: 15px;
+				background-color: #ecf0f1;
+			}
+	
+			input[type="text"] {
+				width: 100%;
+				padding: 8px;
+				margin-bottom: 10px;
+				box-sizing: border-box;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+			}
+
+			input[type="number"] {
+				width: 100%;
+				padding: 8px;
+				margin-bottom: 10px;
+				box-sizing: border-box;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+			}
+	
+			input[type="submit"] {
+				background-color: #3498db;
+				color: #fff;
+				padding: 10px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+	
+			input[type="submit"]:hover {
+				background-color: #2980b9;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="center">
+			<div class="introdiv">
+				<h2>Credit Customer Classification</h2>
+				<p>Find out which category a customer belongs to based on their credit card activity</p>
+			</div>
+
+			<div class="formdiv">
+				<h4>Enter customer activity and details below</h4>
+				<form method="post" action="/predict" enctype="multipart/form-data">	
+					<p class="form-p">
+						<label for="PURCHASES_FREQUENCY">How frequently customer makes purchases (score between 0 and 1 
+							where 1 = frequently purchased, 0 = not frequently purchased):</label>
+						<input type="text" name="PURCHASES_FREQUENCY" required>
+					</p>
+			
+					<p class="form-p">
+						<label for="PURCHASES_TRX">Number of purchases made:</label><br>
+						<input type="number" min="0" name="PURCHASES_TRX" required>
+					</p>
+
+					<p class="form-p">
+						<label for="PURCHASES">Amount of purchases made:</label><br>
+						<input type="number" min="0" name="PURCHASES" required>
+					</p>
+			
+					<p class="form-p">
+						<label for="PURCHASES_INSTALLMENTS_FREQUENCY"> How frequently customer makes purchases in installments 
+							(score between 0 and 1 where 1 = frequently purchased, 0 = not frequently purchased):</label><br>
+						<input type="text" name="PURCHASES_INSTALLMENTS_FREQUENCY" required>
+					</p>
+			
+					<p class="form-p">
+						<label for="INSTALLMENTS_PURCHASES">Amount of purchases done in installments:</label><br>
+						<input type="number" min="0" name="INSTALLMENTS_PURCHASES" required>
+					</p>
+					
+					<input type="submit" value="Submit">
+					</p>
+				</form>
+			</div>
+
+		</div>
+	</body>
+</html>
