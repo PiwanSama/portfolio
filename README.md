@@ -1,19 +1,54 @@
- # Welcome to Samalie Piwan's Data Analyst Portfolio!
+# **Welcome to Samalie Piwan's Data Analyst Portfolio!** 📊✨
 
-Hello and welcome! Thank you for taking the time to explore my data analyst portfolio. Here, you'll find a collection of data analysis projects and insights that showcase my skills and experience in the field of data analysis. Whether you're a fellow data enthusiast, a potential employer, or simply curious about what I've been working on, I hope you find something of interest here.
+Hello and welcome! 👋 Thank you for stopping by my little corner of the internet where **data meets storytelling**. Whether you're a fellow data enthusiast, a potential employer, or just curious about what I’ve been working on, I hope you find something here that sparks your interest (and maybe even inspires you)! 🚀
 
-## About Me
+---
 
-I am a passionate data analyst with a strong background in Python, Machine Learning and Data Visualization. Over the years, I have enhanced my abilities to derive meaningful insights from data and communicate them effectively. My goal is to leverage data to drive informed decision-making and solve complex problems.
+## **👩‍💻 About Me**
 
-## Projects
+Hi there! I’m **Samalie Piwan**, a passionate **Data Analyst** who loves turning raw data into meaningful stories. 📖 With a strong background in **Python**, **Deep Learning**, and **Data Visualization**, I thrive on uncovering insights that drive informed decision-making. 
 
-In this portfolio, you will find a range of projects that demonstrate my analytical capabilities across different domains. Each project is accompanied by a detailed description, outlining the problem statement, methodology, key findings, and insights derived. Feel free to explore and delve into the details of each analysis.
+---
 
-## How to Navigate
+## **📂 Projects**
 
-To get started, simply browse through the repository and click on any project that catches your attention. You will find the project files, including code, datasets, visualizations, and an analysis report.
+Here’s a sneak peek into some of the projects you’ll find in this portfolio:
 
-## Contact Me
+1. **🌍 Maternal Mortality and GDP Analysis**  
+   - Visualizing global disparities in maternal health outcomes and economic development.  
+   - Features interactive choropleth maps and scatter plots.  
 
-I am open to collaborations, job opportunities, and discussions related to data analysis and beyond. Feel free to reach out to me via email at spiwan@andrew.cmu.edu, and connect with me on [LinkedIn]( https://www.linkedin.com/in/piwan-samalie/). I look forward to hearing from you!
+2. **📈 Trading Strategy Robustness Analysis**  
+   - Evaluating the performance of trading strategies across different market conditions.  
+   - Includes backtesting and cross-validation techniques.
+
+3. **🤖 Customer Segmentation and Classification**  
+   - Using machine learning to identify distinct customer segments and predict new customer groups.  
+   - Features an interactive Flask web app for real-time predictions.
+
+Each project includes:
+- 📝 A detailed description of the problem statement detailed in its README.md file.
+- 🔍 Methodologies used for analysis.
+- 📊 Key findings and insights derived.
+- 💡 Visualizations to tell the story behind the data.
+
+Feel free to dive into any project that catches your eye!
+
+---
+
+## **📬 Contact Me**
+
+I’d love to connect with you! 🤝 Whether you want to collaborate, discuss job opportunities, or just chat about all things data, feel free to reach out:
+
+- 📧 Email: [spiwan@andrew.cmu.edu](mailto:spiwan@andrew.cmu.edu)  
+- 💼 LinkedIn: [Samalie Piwan](https://www.linkedin.com/in/piwan-samalie/)  
+
+Let’s turn data into actionable insights together! 🌟
+
+---
+
+## **✨ Final Words**
+
+Thank you for taking the time to explore my portfolio! I’m constantly learning and growing as a data analyst, so check back often for new projects and updates. Happy exploring! 🚀
+
+---
