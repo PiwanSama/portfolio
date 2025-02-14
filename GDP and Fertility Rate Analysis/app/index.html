@@ -1,0 +1,371 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Samalie Piwan">
+    <title>Exploring Maternal Mortality Rate</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    </style>
+    <link href="styles/custom.css" rel="stylesheet">
+  </head>
+  <body>
+	<div>
+		<div id="cover">
+			<div class="cover-container d-flex w-100 h-100 p-3 flex-column">
+				<div class="card card-custom mt-3 p-3">
+					<h1 class="title-bold">Exploring Maternal Mortality Rate</h1>
+				</div>
+				<div class="card card-custom mt-3 p-3">
+					<p class="lead">Maternal mortality rate, often measured as the number of maternal deaths per 100,000 live births, is a critical indicator of the health and well-being of mothers during pregnancy, childbirth, and the postpartum period. Monitoring and addressing maternal mortality are essential components of global efforts to improve maternal health, reduce health disparities, and ensure access to quality healthcare for women worldwide.</p>
+				</div>
+			</div>
+		</div>
+		<div class="p-5">
+			<div id="background" class="my-3 card card-grey p-4">
+				<h3 class="title-blue my-3">Background</h3>
+
+				<p>Globally, approximately 287,000 women died during and after pregrancy in 2020. <span class="emphasis">95%</span> of those deaths occured in <span class="emphasis">Low and Middle - Income countries.</span>. However, most of these deaths could have been prevented.[1]. These deaths are mainly caused by: </p>
+				
+				<ul class="px-3">
+					<li class="ul-li">Complications occurring during or post childbirth</li>
+					<li class="ul-li">Inadequate management throughout pregnancy and the postpartum period</li>
+				</ul>
+				
+				<p>These fatalities serve as a representation of disparities in <span class="emphasis">access to quality healthcare services</span>, contributing to an higher risk of maternal mortality among women in low-income nations compared to their counterparts in high-income regions[1].  The main reason women fail to get quality health care in these regions is the cost of health services. </p>
+					
+				<p>Looking at the globe at a glance, by 2020, <span class="emphasis">659 Million people</span>, of the world’s population lived on less than <span class="emphasis">2.15 USD daily</span>. More than one third of <span class="emphasis">employed workers</span> in Sub- Saharan Africa live on less than <span class="emphasis">1.90 USD daily</span> [2]. Other factors include:
+				
+				<ul class="px-3">
+					<li class="ul-li">Failure in health systems that translate to untrained medical personel and shortage of medical supplies</li>
+					<li class="ul-li">Harmful gender norms that do not prioritize the rights of women and girls including their right to quality medical services during and after pregnancy [1]</li>
+				</ul>
+
+				This prompts us to investigate causes of these fatalities, particularly the factors contributing to their prevalence in Low- and Middle-Income countries
+			</div>
+
+			<div id="questions" class="my-3 card card-grey p-4">
+				<h3 class="title-blue my-3">Research Questions</h3>
+
+				<ol class="px-3">
+					<li>What has been the trend of maternal deaths and GDP over the years?</li>
+					<li>What is the correlaton between maternal death rates and the GDP per capita, as an indicator of the poverty gap?</li>
+				</ol>
+			</div>
+
+			<div id="data" class="my-3 card card-grey p-4">
+				<h3 class="title-blue my-3">Datasets Used</h3>
+				<p>The datasets used in this analysis are the World development indicators from the World Bank DataBank. These are:</p>
+				<ol class="px-3">
+					<li>GDP per capita (current US$). Available <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD">here</a></li>
+					<li>Maternal mortality ratio (modeled estimate, per 100,000 live births). Available <a href="https://data.worldbank.org/indicator/SH.STA.MMRT">here</a></li>
+				</ol>
+			</div>
+
+			<div id="tools" class="my-3 card card-grey p-4">
+				<h3 class="title-blue my-3">Tools</h3>
+
+				<ol class="px-3">
+					<li>Pandas - Data analysis and manipulation</li>
+					<li>Plotly - Data Visualization</li>
+				</ol>
+			</div>
+
+			<div id="analysis" class="my-3">
+				<h3 class="title-blue">Analysis Results</h3>
+
+				<h4 class="title-grey-sm">Relationship between Maternal Mortality Rate and GDP</h4>
+				<!-- <button class="btn btn-primary-custom my-4" onclick="openPlot()">View Relationship</button> -->
+
+				<iframe src="./charts/maternal_mortality_gdp.html" width="100%" height="600" style="border:none;"></iframe>
+
+
+				<h4 class="title-grey-sm">GDP Per Capita</h4>
+				<div id="gdp-per-capita"></div>
+
+				<h4 class="title-grey-sm">Maternal Mortality Rate</h4>
+				<div id="mortality-rate"></div>
+
+			</div>
+
+			<div id="findings" class="my-3 card card-grey p-4">
+				<h3 class="title-blue">Findings</h3>
+				<p>Countries with <span class="emphasis">lower economic levels</span> often have <span class="emphasis">higher maternal mortality rates</span>. However, even as some countries in Sub-Saharan Africa improve economically, maternal mortality rates see only <span class="emphasis">slight reductions</span>. This suggests that economic growth alone may not be enough to significantly lower maternal mortality rates.</p>
+
+			</div>
+
+			<div id="conclusion" class="my-3 card card-grey p-4">
+				<h3 class="title-blue">Solution</h3>
+				<p>Efforts being made by <span class="emphasis">humanitarian organizations</span> in partnership with governments and Non-Governmental Organizations to lower the cost of maternal health care, and to equip medical facilities with supplies needed to offer quality services at a lower cost are a major factor to the lowering of maternal mortality rate. This is in line with <span class="emphasis">SDG target 3.8</span> - “Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all”. [3]</p>
+
+				<p>Other contributing factors that will support initiatives to lower maternal mortality rates include:</p>
+				<ul class="px-3">
+					<li class="ul-li">Continous training of medical personnel</li>
+					<li class="ul-li">Sensitizing women on the need to seek medical care</li>
+					<li class="ul-li">Involving communities in advocating for prioritization of women’s rights to quality health care</li>
+				</ul>
+
+			</div>
+
+		</div>
+		<footer class="text-white p-5">
+			<h3 class="text-white">References</h3>
+			<ol>
+				<li class="list-group-item">[1]	“Maternal mortality.” Accessed: Jan. 06, 2024. [Online]. Available: <a href="https://www.who.int/news-room/fact-sheets/detail/maternal-mortality">https://www.who.int/news-room/fact-sheets/detail/maternal-mortality</a>
+				</li>
+				<li class="list-group-item">[2]	“SDG Indicators.” Accessed: Jan. 06, 2024. [Online]. Available: <a href="https://unstats.un.org/sdgs/report/2019/goal-01/">https://unstats.un.org/sdgs/report/2019/goal-01/</a></li>
+				<li class="list-group-item">[3]	“Good health & well-being | SDG 3: Good health & well-being,” Atlas of Sustainable Development Goals 2023. Accessed: Jan. 06, 2024. [Online]. Available: <a href="https://datatopics.worldbank.org/sdgatlas/goal-3-good-health-and-well-being?lang=en">https://datatopics.worldbank.org/sdgatlas/goal-3-good-health-and-well-being?lang=en</a></li>
+			</ol>
+			<p class="title-white-sm">Designed, Built and Prepared By Samalie Piwan</p>
+		</footer>
+	</div>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+	<script>
+		d3.csv("./data/gdp.csv", function(err, rows){
+
+		function filter_and_unpack(rows, key, Year) {
+			return rows.filter(row => row['Year'] == Year).map(row => row[key])
+		}
+
+		var frames = []
+		var slider_steps = []
+
+		var n = 10;
+		var num = 1990;
+		for (var i = 0; i <= n; i++) {
+		var z = filter_and_unpack(rows, 'GDP', num)
+		var locations = filter_and_unpack(rows, 'Country Code', num)
+
+		frames[i] = {data: [{z: z, locations: locations, text: locations}], name: num}
+		slider_steps.push ({
+			label: num.toString(),
+			method: "animate",
+			args: [[num], {
+			mode: "immediate",
+			transition: {duration: 300},
+			frame: {duration: 300}
+			}]
+		})
+			num = num + 3
+		}
+
+		var data = [{
+		type: 'choropleth',
+		locationmode: 'world',
+		locations: frames[0].data[0].locations,
+		z: frames[0].data[0].z,
+		text: frames[0].data[0].locations,
+		zauto: true
+
+		}];
+		var layout = {
+		title: 'World GDP Per Capita<br>1990 - 2020',
+    	height: 700,
+		geo:{
+		scope: 'world',
+		countrycolor: 'rgb(255, 255, 255)',
+		showland: true,
+		landcolor: 'rgb(217, 217, 217)',
+		showlakes: false,
+		lakecolor: 'rgb(255, 255, 255)',
+		subunitcolor: 'rgb(255, 255, 255)',
+		lonaxis: {},
+		lataxis: {}
+		},
+		updatemenus: [{
+		x: 0.1,
+		y: 0,
+		yanchor: "top",
+		xanchor: "right",
+		showactive: false,
+		direction: "left",
+		type: "buttons",
+		pad: {"t": 87, "r": 10},
+		buttons: [{
+		method: "animate",
+		args: [null, {
+		fromcurrent: true,
+		transition: {
+		duration: 200,
+		},
+		frame: {
+		duration: 500
+		}
+		}],
+		label: "Play"
+		}, {
+		method: "animate",
+		args: [
+		[null],
+		{
+		mode: "immediate",
+		transition: {
+		duration: 0
+		},
+		frame: {
+		duration: 0
+		}
+		}
+		],
+		label: "Pause"
+		}]
+		}],
+		sliders: [{
+		active: 0,
+		steps: slider_steps,
+		x: 0.1,
+		len: 0.9,
+		xanchor: "left",
+		y: 0,
+		yanchor: "top",
+		pad: {t: 50, b: 10},
+		currentvalue: {
+		visible: true,
+		prefix: "Year:",
+		xanchor: "right",
+		font: {
+		size: 20,
+		color: "#666"
+		}
+		},
+		transition: {
+		duration: 300,
+		easing: "cubic-in-out"
+		}
+		}]
+		};
+
+		Plotly.newPlot('gdp-per-capita', data, layout).then(function() {
+		Plotly.addFrames('gdp-per-capita', frames);
+		});
+		})
+	</script>
+
+	<script>
+		d3.csv("./data/mortality.csv", function(err, rows){
+
+		function filter_and_unpack(rows, key, Year) {
+		return rows.filter(row => row['Year'] == Year).map(row => row[key])
+		}
+
+		var frames = []
+		var slider_steps = []
+
+		var n = 10;
+		var num = 2000;
+		for (var i = 0; i <= n; i++) {
+		var z = filter_and_unpack(rows, 'MortalityRate', num)
+		var locations = filter_and_unpack(rows, 'Country Code', num)
+
+		frames[i] = {data: [{z: z, locations: locations, text: locations}], name: num}
+		slider_steps.push ({
+		label: num.toString(),
+		method: "animate",
+		args: [[num], {
+		mode: "immediate",
+		transition: {duration: 300},
+		frame: {duration: 300}
+		}
+		]
+		})
+		num = num + 2
+		}
+
+		var data = [{
+		type: 'choropleth',
+		locationmode: 'world',
+		locations: frames[0].data[0].locations,
+		z: frames[0].data[0].z,
+		text: frames[0].data[0].locations,
+		zauto: true
+		}];
+		var layout = {
+		title: 'Maternal Mortality Rate<br>2000 - 2020',
+		height: 700,
+		geo:{
+		scope: 'world',
+		countrycolor: 'rgb(255, 255, 255)',
+		showland: true,
+		landcolor: 'rgb(217, 217, 217)',
+		showlakes: true,
+		lakecolor: 'rgb(255, 255, 255)',
+		subunitcolor: 'rgb(255, 255, 255)',
+		lonaxis: {},
+		lataxis: {}
+		},
+		updatemenus: [{
+		x: 0.1,
+		y: 0,
+		yanchor: "top",
+		xanchor: "right",
+		showactive: false,
+		direction: "left",
+		type: "buttons",
+		pad: {"t": 87, "r": 10},
+		buttons: [{
+		method: "animate",
+		args: [null, {
+		fromcurrent: true,
+		transition: {
+		duration: 200,
+		},
+		frame: {
+		duration: 500
+		}
+		}],
+		label: "Play"
+		}, {
+		method: "animate",
+		args: [
+		[null],
+		{
+		mode: "immediate",
+		transition: {
+		duration: 0
+		},
+		frame: {
+		duration: 0
+		}
+		}
+		],
+		label: "Pause"
+		}]
+		}],
+		sliders: [{
+		active: 0,
+		steps: slider_steps,
+		x: 0.1,
+		len: 0.9,
+		xanchor: "left",
+		y: 0,
+		yanchor: "top",
+		pad: {t: 50, b: 10},
+		currentvalue: {
+		visible: true,
+		prefix: "Year:",
+		xanchor: "right",
+		font: {
+		size: 20,
+		color: "#666"
+		}
+		},
+		transition: {
+		duration: 300,
+		easing: "cubic-in-out"
+		}
+		}]
+		};
+
+		Plotly.newPlot('mortality-rate', data, layout).then(function() {
+		Plotly.addFrames('mortality-rate', frames);
+		});
+		})
+	</script>
+  </body>
+</html>
