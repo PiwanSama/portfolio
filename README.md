@@ -26,7 +26,7 @@ Here’s a preview of some of the projects you’ll find in this portfolio:
    - Using machine learning to identify distinct customer segments and predict new customer groups.  
    - Features an interactive Flask web app for real-time predictions.
 
-4. **🌾[Crop Classification Using Drone Images](https://github.com/PiwanSama/portfolio/tree/master/Land%20Use%20Classification)**
+4. **🌾[Crop Classification Using Drone Images](https://github.com/PiwanSama/portfolio/tree/master/Crop%20Classification%20Using%20Drone%20Images)**
 
    - Leveraged drone-captured images to classify crops and land structures using machine learning.
    - Achieved high accuracy with Random Forest and CNN models for precision agriculture.
