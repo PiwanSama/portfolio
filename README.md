@@ -12,19 +12,26 @@ Hi there! I’m **Samalie Piwan**, a passionate **Data Analyst** who loves turni
 
 ## **📂 Projects**
 
-Here’s a sneak peek into some of the projects you’ll find in this portfolio:
+Here’s a preview of some of the projects you’ll find in this portfolio:
 
-1. **🌍 Maternal Mortality and GDP Analysis**  
+1. **🌍 [Maternal Mortality and GDP Analysis]()**  
    - Visualizing global disparities in maternal health outcomes and economic development.  
    - Features interactive choropleth maps and scatter plots.  
 
-2. **📈 Trading Strategy Robustness Analysis**  
+2. **📈 [Trading Strategy Robustness Analysis]()**  
    - Evaluating the performance of trading strategies across different market conditions.  
    - Includes backtesting and cross-validation techniques.
 
-3. **🤖 Customer Segmentation and Classification**  
+3. **🤖 [Customer Segmentation and Classification]()**  
    - Using machine learning to identify distinct customer segments and predict new customer groups.  
    - Features an interactive Flask web app for real-time predictions.
+
+4. **🌾[Crop Classification Using Drone Images]()**
+
+   - Leveraged drone-captured images to classify crops and land structures using machine learning.
+   - Achieved high accuracy with Random Forest and CNN models for precision agriculture.
+
+View Project
 
 Each project includes:
 - 📝 A detailed description of the problem statement detailed in its README.md file.
