@@ -14,19 +14,19 @@ Hi there! I’m **Samalie Piwan**, a passionate **Data Analyst** who loves turni
 
 Here’s a preview of some of the projects you’ll find in this portfolio:
 
-1. **🌍 [Maternal Mortality and GDP Analysis]()**  
+1. **🌍 [Maternal Mortality and GDP Analysis](https://github.com/PiwanSama/portfolio/tree/master/GDP%20and%20Fertility%20Rate%20Analysis)**  
    - Visualizing global disparities in maternal health outcomes and economic development.  
    - Features interactive choropleth maps and scatter plots.  
 
-2. **📈 [Trading Strategy Robustness Analysis]()**  
+2. **📈 [Trading Strategy Robustness Analysis](https://github.com/PiwanSama/portfolio/tree/master/Trading%20Strategy%20Robustness%20Analysis)**  
    - Evaluating the performance of trading strategies across different market conditions.  
    - Includes backtesting and cross-validation techniques.
 
-3. **🤖 [Customer Segmentation and Classification]()**  
+3. **🤖 [Customer Segmentation and Prediction](https://github.com/PiwanSama/portfolio/tree/master/Customer%20Segementation%20Prediction)**  
    - Using machine learning to identify distinct customer segments and predict new customer groups.  
    - Features an interactive Flask web app for real-time predictions.
 
-4. **🌾[Crop Classification Using Drone Images]()**
+4. **🌾[Crop Classification Using Drone Images](https://github.com/PiwanSama/portfolio/tree/master/Land%20Use%20Classification)**
 
    - Leveraged drone-captured images to classify crops and land structures using machine learning.
    - Achieved high accuracy with Random Forest and CNN models for precision agriculture.
