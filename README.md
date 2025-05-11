@@ -12,7 +12,7 @@ Hi there! I’m **Samalie Piwan**, a passionate **Data Analyst** who loves turni
 
 ## **📂 Projects**
 
-Here’s a preview of some of the projects you’ll find in this portfolio:
+Here’s a preview of the projects you’ll find in this portfolio:
 
 1. **🌍 [Maternal Mortality and GDP Analysis](https://github.com/PiwanSama/portfolio/tree/master/GDP%20and%20Fertility%20Rate%20Analysis)**  
    - Visualizing global disparities in maternal health outcomes and economic development.  
@@ -47,7 +47,7 @@ Feel free to dive into any project that catches your eye!
 
 I’d love to connect with you! 🤝 Whether you want to collaborate, discuss job opportunities, or just chat about all things data, feel free to reach out:
 
-- 📧 Email: [spiwan@andrew.cmu.edu](mailto:spiwan@andrew.cmu.edu)  
+- 📧 Email: [spiwan@andrew.cmu.edu](mailto:piwan.summerlee@gmail.com)  
 - 💼 LinkedIn: [Samalie Piwan](https://www.linkedin.com/in/piwan-samalie/)  
 
 Let’s turn data into actionable insights together! 🌟
