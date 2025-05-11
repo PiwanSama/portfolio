@@ -47,7 +47,7 @@ Feel free to dive into any project that catches your eye!
 
 I’d love to connect with you! 🤝 Whether you want to collaborate, discuss job opportunities, or just chat about all things data, feel free to reach out:
 
-- 📧 Email: [spiwan@andrew.cmu.edu](mailto:piwan.summerlee@gmail.com)  
+- 📧 Email: [piwan.summerlee@gmail.com](mailto:piwan.summerlee@gmail.com)  
 - 💼 LinkedIn: [Samalie Piwan](https://www.linkedin.com/in/piwan-samalie/)  
 
 Let’s turn data into actionable insights together! 🌟
